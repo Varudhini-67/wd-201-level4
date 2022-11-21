@@ -1,0 +1,26 @@
+{
+    "name": "varudhini",
+    "version": "1.0.0",
+    "description": "to-do-application",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "prepare": "husky install"
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint",
+        "prettier --write ."
+      ]
+    },
+    "author": "varudhini",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "^29.2.2"
+    },
+    "devDependencies": {
+      "husky": "^8.0.1",
+      "lint-staged": "^13.0.3"
+    }
+  }
+  
